@@ -1,0 +1,7 @@
+.cover__container {
+  position: absolute;
+  top: calc(50% - 6rem);
+  left: 35%;
+  color: #fff;
+  text-decoration: none;
+}

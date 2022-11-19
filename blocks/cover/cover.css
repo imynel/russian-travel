@@ -1,0 +1,9 @@
+.cover {
+  position: relative;
+  margin: 0 auto 100px;
+  width: 95%;
+  min-height: 1110px;
+  background-image: url(../../images/after-baykal.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
