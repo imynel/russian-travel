@@ -1,6 +1,26 @@
 .places__place {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: max-content 38vw;
-  gap: 3% 4%;
+  grid-template-rows: max-content 1fr;
+  gap: 40px 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    gap: 20px 30px
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .places__place {
+    gap: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .places__place {
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content 1fr max-content;
+    gap: 30px;
+  }
 }

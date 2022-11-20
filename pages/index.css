@@ -42,7 +42,6 @@
 @import url(../blocks/cover/__container/cover__container.css);
 @import url(../blocks/cover/__titile/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 
 /* block footer */
 @import url(../blocks/footer/footer.css);
