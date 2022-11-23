@@ -2,33 +2,30 @@
   position: relative;
   color: #fff;
   text-decoration: none;
-  width: 50%;
+  width: 30%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
   margin: 0;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
   .cover__subtitle {
-    font-size: 1.5rem;
+    width: 35%;
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 768px) {
   .cover__subtitle {
     width: 60%;
-    font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 320px) {
   .cover__subtitle {
-    font-size: .8rem;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .cover__subtitle {
-    font-size: .7rem;
+    width: 80%;
+    font-size: 14px;
+    line-height: 16px;
   }
 }

@@ -1,9 +1,26 @@
 .cover__container {
   width: 100%;
-  height: 100%;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../../../images/after-baykal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cover__container::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+}
+
+.cover__container:hover::before {
+  opacity: .8;
+  transition: opacity .7s linear;
 }

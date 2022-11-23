@@ -1,18 +1,9 @@
 .places__url-heading {
-  margin: 0 0 20px;
+  margin: 0 0 12px;
   color: #aaa;
-  font-size: .7rem;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
 }
 
-@media screen and (max-width: 770px) {
-  .places__url-heading {
-    margin-bottom: 10px;
-    font-size: .5rem;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .places__url-heading {
-    margin-left: 20px;
-  }
-}

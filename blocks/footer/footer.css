@@ -1,14 +1,22 @@
 .footer {
-  margin: 0 auto 25px;
-  width: 95%;
-  display: grid;
-  grid-template-columns: repeat(5, max-content) 1fr;
-  gap: 4%;
+  margin: 0 auto 24px;
+  width: 92.5%;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 1024px) {
   .footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    width: 90.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 90%;
   }
 }

@@ -2,34 +2,21 @@
   margin: 0;
   color: #fff;
   text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: lighter;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
-.footer__link:nth-of-type(6) {
-  justify-self: end;
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 570px) {
   .footer__link {
-    font-size: 1.2rem;
+    font-size: 7px;
   }
 }
 
-@media screen and (max-width: 770px) {
-  .footer__link {
-    font-size: .8rem;
-  }
-}
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 320px) {
   .footer__link {
-    font-size: 1.3rem;
-    margin: 10px;
-  }
-  .footer__link:nth-of-type(6) {
-    justify-self: start;
-    font-size: .7rem;
-    margin: 20px 0;
+    font-size: 24px;
+    line-height: 24px;
   }
 }

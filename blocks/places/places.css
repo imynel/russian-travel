@@ -1,23 +1,28 @@
-.lead {
+.places {
   margin: 0 auto 92px;
+  display: grid;
   width: 76.875%;
+  gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
+  .places {
     width: 90.625%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .lead {
-    width: 100%;
-    margin-bottom: 88px;
+  .places {
+    width: 93.75%;
+    gap: 72px;
+    margin-bottom: 90px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .lead {
-    margin-bottom: 64px;
+  .places{
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 66px;
   }
 }
