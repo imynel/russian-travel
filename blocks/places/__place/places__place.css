@@ -1,12 +1,12 @@
 .places__place {
   display: grid;
-  grid-template-columns: repeat(2, fit-content(484px));
+  grid-template-columns: 1fr 1fr;
   gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .places__place {
-    grid-template-columns: fit-content(440px) fit-content(465px);
+    grid-template-columns: minmax(340px, 440px) minmax(340px, 440px);
     gap: 48px 32px
   }
 }
