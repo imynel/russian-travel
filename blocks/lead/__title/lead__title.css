@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead__title {
+    width: 80%;
     font-size: 96px;
     line-height: 100px;
   }
@@ -37,6 +38,14 @@
   }
 }
 
+@media screen and (max-width: 710px) {
+  .lead__title {
+    font-size: 90px;
+    line-height: 92px;
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 695px) {
   .lead__title {
     font-size: 55px;
@@ -46,7 +55,7 @@
 
 @media screen and (max-width: 410px) {
   .lead__title {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 40px;
   }
 }
