@@ -5,13 +5,37 @@
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
-  text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__copyright {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__copyright {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__copyright {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
+    font-size: 14px;
     line-height: 14px;
-    text-align: start;
-    padding-top: 16px;
   }
 }
+

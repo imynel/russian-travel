@@ -1,15 +1,20 @@
 .footer__container {
-  display: grid;
-  grid-template-columns: repeat(5, max-content) 1fr;
+  display: inline-flex;
   gap: 18px;
 }
 
-
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .footer__container {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, max-content);
+    flex-direction: column;
+    margin-bottom: 48px;
     gap: 32px;
   }
 }
+/*
+@media screen and (max-width: 320px) {
+  .footer__container {
+    flex-direction: column;
+    margin-bottom: 48px;
+    gap: 32px;
+  }
+} */
